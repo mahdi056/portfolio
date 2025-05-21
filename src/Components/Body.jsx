@@ -50,7 +50,7 @@ const Body = () => {
                 </div>
                 <div className="navbar-end">
                     <a
-                    href='/public/Mahdi-Resume.pdf' 
+                    href='/Mahdi-Resume.pdf' 
                     download
                     className="btn btn-outline btn-success">RESUME</a>
                 </div>
@@ -83,7 +83,7 @@ const Body = () => {
                     </div>
 
                      <a
-                    href='/public/Mahdi-Resume.pdf' 
+                    href='/Mahdi-Resume.pdf' 
                     download
                     className="btn btn-outline btn-success">RESUME</a>
                 </div>
