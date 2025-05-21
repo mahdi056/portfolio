@@ -49,7 +49,10 @@ const Body = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-outline btn-success">RESUME</a>
+                    <a
+                    href='/public/Mahdi-Resume.pdf' 
+                    download
+                    className="btn btn-outline btn-success">RESUME</a>
                 </div>
             </div>
             {/* Navbar end */}
@@ -79,7 +82,10 @@ const Body = () => {
                         <a href="https://github.com/mahdi056"><FaGithub></FaGithub></a>
                     </div>
 
-                    <button className='btn btn-outline btn-success'>RESUME</button>
+                     <a
+                    href='/public/Mahdi-Resume.pdf' 
+                    download
+                    className="btn btn-outline btn-success">RESUME</a>
                 </div>
 
 
