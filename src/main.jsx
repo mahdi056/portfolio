@@ -9,8 +9,10 @@ import {
 } from "react-router-dom";
 import Body from './Components/Body';
 import Artifactdeails from './Components/Artifactdeails';
-import Visadetails from './Components/Visadetails';
+
 import Scholarship from './Components/Scholarship';
+import Petdetails from './Components/Petdetails';
+
 
 const router = createBrowserRouter([
   {
@@ -22,8 +24,8 @@ const router = createBrowserRouter([
     element: <Artifactdeails></Artifactdeails>
   },
   {
-    path: '/visa',
-    element: <Visadetails></Visadetails>
+    path: '/pet',
+    element: <Petdetails></Petdetails>
   },
   {
     path: '/scholarship',
@@ -35,5 +37,7 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+    
+    
   </StrictMode>,
 )

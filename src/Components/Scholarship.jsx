@@ -5,7 +5,7 @@ const Scholarship = () => {
     return (
         <div className='w-4/5 mx-auto shadow-lg shadow-gray-600 mt-4'>
 
-        <div className='space-y-4'>
+        <div className='space-y-4 px-4'>
             <img className='rounded-lg' src={sms} alt="" />
             <h2 className='font-bold text-2xl text-center text-green-600'>Scholarship Management System</h2>
             <h4 className='text-xl font-bold'>Technologies Used</h4>
@@ -20,7 +20,7 @@ const Scholarship = () => {
             <p><span className='font-bold'>Challenges faced: </span> Efficient Scholarship Filtering, User Authentication & Security, Payment Integration, Database Management.</p>
             <p><span className='font-bold'>Potential improvements and future plans for the project: </span>Advanced Scholarship Matching, Document Verification System, Enhanced Payment Options</p>
         </div>
-        <NavLink to='/'><button className='btn btn-outline btn-success mt-4'>Go Back</button></NavLink>
+        <NavLink to='/'><button className='btn btn-outline btn-success mt-4 ml-4'>Go Back</button></NavLink>
         </div>
     );
 };

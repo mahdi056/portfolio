@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "aos": "^2.3.4",
     "firebase": "^11.3.0",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.0",
@@ -18,6 +20,7 @@
     "react-icons": "^5.4.0",
     "react-router-dom": "^7.1.5",
     "react-simple-typewriter": "^5.0.1",
+    "react-toastify": "^11.0.5",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {

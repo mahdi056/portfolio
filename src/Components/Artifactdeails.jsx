@@ -5,7 +5,7 @@ const Artifactdeails = () => {
     return (
         <div className='w-4/5 mx-auto shadow-lg shadow-gray-600 mt-4'>
         
-                <div className='space-y-4'>
+                <div className='space-y-4 px-4'>
                     <img className='rounded-lg' src={artifact} alt="" />
                     <h2 className='font-bold text-2xl text-center text-green-600'>Artifact Atlas</h2>
                     <h4 className='text-xl font-bold'>Technologies Used</h4>
@@ -20,7 +20,7 @@ const Artifactdeails = () => {
                     <p><span className='font-bold'>Challenges faced: </span> Efficient Artifact Filtering & Search, User Authentication & Security, Image Handling & Validation, Data Integrity & Moderation, Performance Optimization, Database Management.</p>
                     <p><span className='font-bold'>Potential improvements and future plans for the project: </span>Advanced Artifact Recommendation, Artifact Verification System, Enhanced User Interaction, Real-Time Collaboration, Multi-Language Support.</p>
                 </div>
-                    <NavLink to='/'><button className='btn btn-outline btn-success mt-4'>Go Back</button></NavLink>
+                    <NavLink to='/'><button className='btn btn-outline btn-success mt-4 ml-4'>Go Back</button></NavLink>
                 </div>
     );
 };
