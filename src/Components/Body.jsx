@@ -1,6 +1,6 @@
 
 import sms from '../assets/SMS.png'
-import artifact from '../assets/Artifact.png'
+import eduConnect from '../assets/edu-connect.png'
 import pet from '../assets/pet.png'
 import { NavLink } from 'react-router-dom';
 import Navbar from './Navbar';
@@ -87,14 +87,14 @@ const Body = () => {
                 </div>
 
                  <div className='flex flex-col justify-between items-center shadow-lg shadow-gray-600 p-8 gap-y-4 w-80'> 
-                    <img className='w-48 h-32 rounded-lg' src={artifact} alt="" />
+                    <img className='w-48 h-32 rounded-lg' src={eduConnect} alt="" />
 
                     <div className='mt-8'>
-                        <h2>Artifact Atlas</h2>
+                        <h2>Edu Connect</h2>
                        
                     </div>
                     <div>
-                        <NavLink to='/artifact'> <button className='btn btn-outline btn-success'>View More</button></NavLink>
+                        <NavLink to='/edudetails'> <button className='btn btn-outline btn-success'>View More</button></NavLink>
                     </div>
                 </div>
 

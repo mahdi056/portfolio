@@ -1,25 +1,26 @@
-import { NavLink } from 'react-router-dom';
-import sms from '../assets/SMS.png';
+import eduConnect from '../assets/edu-connect.png'
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { NavLink } from "react-router-dom";
 
-const Scholarship = () => {
+
+const EduDetails = () => {
     return (
         <div className='w-4/5 mx-auto shadow-lg shadow-gray-600 mt-8 rounded-lg'>
             <div className='p-6 space-y-6'>
                 <img
                     className='rounded-lg w-full shadow-md hover:scale-105 transition-transform duration-300'
-                    src={sms}
-                    alt="Scholarship Management System"
+                    src={eduConnect}
+                    alt="Edu Connect"
                 />
 
-                <h2 className='font-bold text-3xl text-center'>
-                    Scholarship Management System
+                <h2 className='font-bold text-3xl text-center text-green-700'>
+                    Edu Connect
                 </h2>
 
                 <div className='space-y-2'>
                     <h4 className='text-xl font-bold'>Technologies Used</h4>
                     <ul className='list-disc list-inside'>
-                        <li>Frontend: React, Tailwind CSS</li>
+                        <li>Frontend: Next.js, Tailwind CSS</li>
                         <li>Backend: Node.js, Express</li>
                         <li>Database: MongoDB</li>
                     </ul>
@@ -28,35 +29,38 @@ const Scholarship = () => {
                 <div className='space-y-2'>
                     <h4 className='text-xl font-bold'>Description</h4>
                     <p>
-                        <span className='font-bold'>Scholarship Management System</span> is an innovative platform designed to help students explore and apply for a wide range of scholarships with ease. Students benefit greatly from this system as it simplifies the scholarship search process, making it more accessible, efficient, and user-friendly.
-                    </p>
-                    <p>
-                        With a clean interface and organized listings, students can easily apply for their preferred scholarships without confusion or hassle.
+                        <span className='font-bold'>Edu Connect</span> is a full-stack web application designed to streamline the college admission process. Users can browse a list of colleges, view detailed information about each institution, and securely apply for admission by submitting personal details and academic results. Admins can manage and update admission statuses through a protected dashboard. The platform offers features like form validation, role-based access, image uploads, and real-time status updates - all built using the MERN stack and deployed on Vercel. Edu Connect simplifies the entire college application experience for both applicants and administrators.
                     </p>
                 </div>
 
                 <div className='space-y-2'>
                     <h4 className='text-xl font-bold'>Challenges Faced</h4>
                     <ul className='list-disc list-inside'>
-                        <li>Efficient Scholarship Filtering</li>
-                        <li>User Authentication & Security</li>
-                        <li>Payment Integration</li>
-                        <li>Database Management</li>
+                        <li>Dynamic Route Protection</li>
+
+                        <li>Dynamic Dashboards</li>
+                        <li>Authentication</li>
+            
+            
+
+
+
                     </ul>
                 </div>
 
                 <div className='space-y-2'>
                     <h4 className='text-xl font-bold'>Potential Improvements and Future Plans</h4>
                     <ul className='list-disc list-inside'>
-                        <li>Advanced Scholarship Matching</li>
-                        <li>Document Verification System</li>
-                        <li>Enhanced Payment Options</li>
+                        <li>Email notification</li>
+                        <li>Role based access for every college moderator</li>
+                        <li>Multianguage Support</li>
+                        <li> AI-Based Recommendations</li>
                     </ul>
                 </div>
 
                 <div className='flex flex-wrap gap-4'>
                     <a
-                        href="https://assignment-12-e037d.web.app/home"
+                        href="https://edu-connect-jet.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-4 py-2 border border-green-600 rounded-full hover:bg-green-600 hover:text-white transition duration-300"
@@ -66,7 +70,7 @@ const Scholarship = () => {
                     </a>
 
                     <a
-                        href="https://github.com/mahdi056/A-12"
+                        href="https://github.com/mahdi056/Edu-connect"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-4 py-2 border border-gray-700 rounded-full hover:bg-gray-800 hover:text-white transition duration-300"
@@ -88,4 +92,4 @@ const Scholarship = () => {
     );
 };
 
-export default Scholarship;
+export default EduDetails;

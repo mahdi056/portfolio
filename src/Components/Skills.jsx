@@ -5,6 +5,7 @@ import {
 import { FaLaptopCode } from 'react-icons/fa';
 import { TbBrandJavascript } from "react-icons/tb";
 import { DiMongodb } from "react-icons/di";
+import { TbBrandNextjs } from "react-icons/tb";
 import {
   SiTailwindcss, SiFirebase, SiRedux, SiExpress
 } from "react-icons/si";
@@ -23,6 +24,7 @@ const Skills = () => {
     <SiRedux className="text-purple-600" size={60} />,
     <FaGithub className="text-black dark:text-white" size={60} />,
     <FaGitAlt className="text-red-500" size={60} />,
+    <TbBrandNextjs className="text-white" size={60}/>
   ];
 
   return (
